@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #2a2e46;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+.fas {
+  color: #b15656;
+  margin-left: 0.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.wrapper-box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 0;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-box .cabo {
+  background: #e6ac84;
+  width: 3rem;
+  height: 10rem;
+  position: absolute;
+  bottom: 20%;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.wrapper-box .cabo .palito {
+  position: absolute;
+  bottom: 0;
+}
+.wrapper-box .cabo .palito.-listra1 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 7%;
+}
+.wrapper-box .cabo .palito.-listra2 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 20%;
+}
+.wrapper-box .cabo .palito.-listra3 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 30%;
+}
+.wrapper-box .cabo .palito.-listra4 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 40%;
+}
+.wrapper-box .cabo .palito.-listra5 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 50%;
+}
+.wrapper-box .cabo .palito.-listra6 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 60%;
+}
+.wrapper-box .cabo .palito.-listra7 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 70%;
+}
+.wrapper-box .cabo .palito.-listra8 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 80%;
+}
+.wrapper-box .cabo .palito.-listra9 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 90%;
+}
+.wrapper-box .cabo .palito.-listra10 {
+  width: 0.1rem;
+  height: 10rem;
+  box-shadow: 0px 0px 2px rgba(204, 147, 109, 0.4);
+  left: 100%;
+}
+.wrapper-box .cabo .cabo-sombra {
+  position: absolute;
+  width: 100%;
+  height: 3rem;
+  background: #ce966fb3;
+  bottom: 53%;
+  border-radius: 0.3rem;
+  left: 0rem;
+}
+.wrapper-box .sorvete {
+  background-color: #9cd2a2;
+  width: 10rem;
+  height: 18rem;
+  position: absolute;
+  bottom: 35%;
+  border-radius: 6rem 6rem 2rem 2rem;
+}
+.wrapper-box .sombra {
+  width: 3rem;
+  height: 13rem;
+  background: #96cc9c;
+  bottom: 43%;
+  position: absolute;
+  box-shadow: 0px 0px 33px 6px #8cc192;
+  border-radius: 6rem 6rem 1rem 1rem;
+}
+.wrapper-box .derretido {
+  width: 1rem;
+  height: 3rem;
+  background: #9cd2a2;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 35%;
+  left: 39%;
+  animation: 4s derretido infinite;
+  animation-delay: 2s;
+}
+.wrapper-box .derretido2 {
+  width: 1rem;
+  height: 9rem;
+  bottom: 38%;
+  background: #9cd2a2;
+  border-radius: 2rem;
+  position: absolute;
+  left: 56%;
+  animation: 3s derretido-sm infinite;
+  animation-delay: 1s;
+}
+
+@keyframes derretido {
+  from {
+    bottom: 38%;
+  }
+  to {
+    bottom: 32%;
+  }
+}
+@keyframes derretido-sm {
+  from {
+    bottom: 38%;
+  }
+  to {
+    bottom: 33%;
+  }
+}
